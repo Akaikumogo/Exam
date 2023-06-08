@@ -1,0 +1,72 @@
+@import "../global";
+.footer{
+    margin: 0 auto;
+    background-color: $colorblack;
+    height: 180px;
+    .footer-container{
+        width: 1300px;
+        margin: 0 auto;
+        padding: 20px;
+        p{
+            font-family: 'Tenor Sans';
+            margin-top: 20px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: center;
+            color: $colorwhite;
+        }
+        .footer-container-nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        .footer-container-logo{
+            width: 15%;
+
+        }
+        .footer-container-list{
+            width: 45%;
+            display: flex;
+            justify-content: space-between;
+            .footer-container-list-item{
+                font-family: 'Tenor Sans';
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                color: $colorwhite;
+            }
+        }
+        .footer-container-extra{
+            width: 10%;
+            display: flex;
+            justify-content: space-between;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1300px){
+    .footer{
+        .footer-container{
+            width: 100%;
+        }
+    }
+}
+@media screen and (max-width:500px){
+    .footer{
+        .footer-container{
+            margin-top: 480px;
+            width: 100%;
+            .footer-container-logo{
+                width: 50%;
+                text-align: center;
+            }
+            .footer-container-extra{
+                width: 30%;
+            }
+            .footer-container-list{
+                display: none;
+            }
+        }
+    }
+}

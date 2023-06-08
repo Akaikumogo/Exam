@@ -1,0 +1,630 @@
+@import '../global';
+.main{
+	.service{
+		width: 1300px;
+		height: 400px;
+		margin: 0 auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		.container{
+			width: 80%;
+			height: 80%;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			.card{
+				width: 30%;
+				height: 100%;
+				display: flex;
+				justify-item: center;
+				align-items: center;
+				justify-content: space-evenly;
+				flex-direction: column;
+				box-shadow: -5px 5px 30px grey;
+				background-color: #FFF8F8;
+				.card-itm{
+					h1{
+						font-size: 38px;
+					}
+					p{
+						font-size: 16px;
+					}
+					button{
+						width: 220px;
+						height: 35px;
+						border: $border;
+					}
+				}
+			}
+			img{
+				display: none;
+			}
+		}
+	}
+	.garantie{
+		background-color: $colorblack;
+		.container{
+			width: 1100px;
+			height: 700px;
+			margin: 0 auto;
+			.title-block{
+				width: 100%;
+				height: 15%;
+				display: flex;
+				justify-content: start;
+				align-items: center;
+				h1{
+					font-size: 36px;
+					color: $colorwhite;
+					span{
+						color:$colorred;
+					}
+				}	 
+			}
+			.card-block{
+				width: 1200px;
+				height: 30%;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				.cards{
+					width:100%;
+					height: 100%;
+					.text-pic{
+						width: 60%;
+						height: 50%;
+						display: flex;
+						align-items: center;
+						margin-left: -20px;
+						justify-content: center;
+						h1{
+							color: $colorwhite;
+						}
+					}
+					.discrp{
+						width: 60%;
+						height: 50%;
+						color: $colorwhite;
+					}
+				}
+			}
+			.title2{
+				width: 100%;
+				height: 15%;
+				h1{
+					font-size: 36px;
+					color: $colorwhite;
+				}
+			}
+			.garantiya{
+				width: 100%;
+				height: 40%;
+				display: flex;
+				.left{
+					width: 40%;
+					height:100%;
+					h1{	
+						width: 100%;
+						color:$colorwhite;	
+						font-size: 30px;
+						margin: 10px 1px;
+						span{
+							font-size: 36px;
+							color:$colorred
+						}
+					}
+				}
+				.right{
+					display: flex;
+					flex-direction: column;
+					justify-content: start;
+					width: 70%;
+					height: 100%;
+					margin-top: 10px;
+					p{
+						margin: 11px 0;
+						font-size: 24px;
+						color: $colorwhite;
+					}
+				}
+			}
+		}
+	}
+	.bonus{
+		width: 1100px;
+		height: 500px;
+		margin: 0 auto;
+		background-image: url('../images/Frame 19.png');
+		background-size: cover;
+		display: flex;
+		align-items: center;
+		justify-content: start;
+		.box{
+			width: 420px;
+			height: 220px;
+			border-radius: 10px;
+			margin-left: 250px;
+			display: flex;
+			background-color: #FFF8F8;
+			align-items: center;
+			justify-content: center;
+			.container{
+				width: 90%;
+				height: 90%;
+				span{
+					color: $colorred;
+				}
+				.button{
+					color: $colorwhite;
+					background-color: $colorred;
+					border: none;
+					width: 40%;
+					height: 15%;
+				}
+			}
+		}
+	}
+	.portfolio{	
+	    background-color: black;
+	    .portfolio-container{
+	        width: 1000px;
+	        margin: 0 auto;
+	        h2{
+	        	font-family: 'Montserrat';
+	            font-weight: 800;
+	            font-size: 50px;
+	            line-height: 88.57%;
+	            padding: 60px 30px;
+	            color: #FFFFFF;}
+	   		.portfolio-list{
+	        	width: 100%;
+	        	display: flex;
+	       		flex-wrap: wrap;
+	      		justify-content: space-around;
+	        	.portfolio-list-itm{
+		            width: 47%;
+		            height: 380px;
+		            display: flex;
+		            margin-bottom: 20px;
+		            img{
+		                width: 100%;
+		                height: 100%;
+		                cursor: poiner;
+		            }
+	            }
+	        }		
+	    }
+	}
+	.steps{
+		.step-container{
+			height: 2700px;
+			width: 1000px;
+			padding-top: 50px;
+			margin: 0 auto;
+			position: relative;
+			h1{
+				font-size: 50px;
+				span{
+					color:$colorred;
+				}
+			}
+			.card-block{
+				width: 100%;
+				height: 550px;
+				display: flex ;
+				justify-content: space-between;
+				.left{
+					width: 45%;
+					.card{
+						width: 100%;
+						.card-text{
+							display: flex;
+							align-items: center;
+							h1{
+								font-size: 100px;
+								color: $colorgrey;
+							}
+							p{
+								font-size: 34px;
+							}
+						}
+						.card-pic{
+							width: 80%;
+						}
+					}
+				}
+				.right{
+					width: 45%;
+					margin-top: 100px;
+					.card{
+						width: 100%;
+						.card-text{
+							display: flex;
+							align-items: center;
+							h1{
+								font-size: 100px;
+								color: $colorgrey;
+							}
+							p{
+								font-size: 34px;
+							}
+						}
+						.card-pic{
+							width: 80%;
+						}
+					}
+				}
+			}
+			.button{
+				position: absolute;
+				left: 300px;
+				bottom: 40px;
+				width: 400px;
+				height: 50px;
+				color: $colorwhite;
+				background-color: $colorred;
+			}
+		}
+	}
+}
+@media screen and (max-width:1300px){	
+	.service{
+		width: 100%;
+	}
+	img{
+		display: none;
+	}
+	.garantie{
+		width: 100%;
+	}
+	.portfolio{
+        .portfolio-container{
+            width: 90%;
+            height:280px;
+        }
+    }
+    .steps{
+    	.step-container{
+    		width: 100%;
+    	}
+
+    }
+}
+@media screen and (max-width: 800px){
+	.main{
+		.service{
+			width: 768px;
+			height: 950px;
+			.container{
+				width: 80%;
+				height: 80%;
+				display: grid;
+				grid-template-columns: 200px 200px;
+				.card{
+					width: 250px;
+					height: 300px;
+					margin: 5px;
+				}
+				img{
+					display: block;
+				}
+			}
+		}
+		.garantie{
+			background-color: $colorblack;
+			.container{
+				width: 100%;
+				height: 600px;
+				margin: 0 auto;
+				.title-block{
+					width: 100%;
+					height: 15%;
+					display: flex;
+					justify-content: start;
+					align-items: center;
+					h1{
+						font-size: 36px;
+						color: $colorwhite;
+						span{
+							color:$colorred;
+						}
+					}	 
+				}
+				.card-block{
+					width: 1200px;
+					height: 30%;
+					display: flex;
+					justify-content: space-between;
+						align-items: center;
+					.cards{
+						width:100%;
+						height: 100%;
+						.text-pic{
+							width: 60%;
+							display: flex;
+							align-items: center;
+							margin-left: -20px;
+							justify-content: center;
+							h1{
+								height: 50%;
+								color: $colorwhite;
+							}
+						}
+						.discrp{
+							width: 60%;
+							height: 50%;
+							color: $colorwhite;
+						}
+					}
+				}
+				.title2{
+					width: 100%;
+					height: 15%;
+					h1{
+						font-size: 36px;
+						color: $colorwhite;
+					}
+				}
+				.garantiya{
+					width: 100%;
+					height: 40%;
+					display: flex;
+					.left{
+						width: 40%;
+						height:100%;
+						h1{	
+							width: 100%;
+							font-size: 24px;	
+							color:$colorwhite;
+							span{
+								font-size: 36px;
+								color:$colorred
+							}
+						}
+					}
+					.right{
+						display: flex;
+						flex-direction: column;
+						justify-content: start;
+						width: 60%;
+						height: 100%;
+						p{
+							margin: 10px;
+							font-size: 24px;
+							color: $colorwhite;
+						}
+					}
+				}
+			}
+		}
+		.portfolio{
+			width: 100%;
+			border: 1px solid red;
+			.portfolio-container{
+				width: 90%;
+				margin: 0 auto;
+				.portfolio-list{
+		        	width: 100%;
+		        	display: flex;
+		       		flex-wrap: wrap;
+		      		justify-content: space-around;
+		        	.portfolio-list-itm{
+			            width: 47%;
+			            height: 380px;
+			            display: flex;
+			            margin-bottom: 20px;
+			            img{
+			                width: 100%;
+			                height: 100%;
+			                cursor: pointer;
+			            }
+		            }
+		        }
+			}
+        }
+        .steps{
+        	.step-container{
+        		width: 100%;
+        		height: 1000px;
+        		border: 1px solid;
+        		.button{
+        			left:200px;
+        		}
+        	}
+        }
+	}
+}
+@media screen and (max-width: 500px){
+	.main{
+		.service{
+			width: 100%;
+			height: 1100px;
+			margin: 0 auto;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			.container{
+				width: 100%;
+				height:90%;
+				display: flex;
+				flex-direction: column;
+				.card{
+					width: 95%;
+					height: 50%;
+					display: flex;
+					justify-item: center;
+					align-items: center;
+					margin: 10px;
+					justify-content: space-evenly;
+					flex-direction: column;
+					box-shadow: -5px 5px 30px grey;
+					background-color: #FFF8F8;
+					padding-bottom: 100px;
+					.card-itm{
+						h1{
+							font-size: 38px;
+						}
+						p{
+							font-size: 16px;
+						}
+						button{
+							width: 220px;
+							height: 35px;
+							border: $border;
+						}
+					}
+				}
+				img{
+					display: none;
+				}
+			}
+		}
+		.garantie{
+			background-color: $colorblack;
+			.container{
+				width: 90%;
+				height: 1000px;
+				margin: 0 auto;
+				.title-block{
+					width: 100%;
+					height: 15%;
+					display: flex;
+					justify-content: start;
+					align-items: center;
+					h1{
+						font-size: 36px;
+						margin-left: -50px;
+						color: $colorwhite;
+						span{
+							color:$colorred;
+						}
+					}	 
+				}
+				.card-block{
+					width: 100%;
+					height: 30%;
+					display: flex;
+					flex-direction: column;
+					align-content: space-evenliy;
+					justify-content: space-between;
+					align-items: center;
+					.cards{
+						width:100%;
+						height: 100%;
+						.text-pic{
+							width: 60%;
+							height: 50%;
+							display: flex;
+							align-items: center;
+							margin-left: -20px;
+							justify-content: center;
+							h1{
+
+								color: $colorwhite;
+							}
+						}
+						.discrp{
+							width: 60%;
+							height: 50%;
+							color: $colorwhite;
+						}
+					}
+				}
+				.title2{
+					width: 100%;
+					height: 15%;
+					margin-top: 30px;
+					h1{
+						font-size: 36px;
+						color: $colorwhite;
+					}
+				}
+				.garantiya{
+					width: 100%;
+					height: 40%;
+					display: flex;
+					.left{
+						width: 40%;
+						height:100%;
+						h1{	
+							width: 100%;
+							color:$colorwhite;	
+							font-size: 30px;
+							margin: 10px 1px;
+							span{
+								font-size: 36px;
+								color:$colorred
+							}
+						}
+					}
+					.right{
+						display: flex;
+						flex-direction: column;
+						justify-content: start;
+						width: 70%;
+						height: 100%;
+						margin-top: 10px;
+						p{
+							margin: 11px 0;
+							font-size: 16px;
+							color: $colorwhite;
+						}
+					}
+				}
+			}
+		}
+		.portfolio{
+			width: 100%;
+			border: 1px solid red;
+			.portfolio-container{
+				width: 90%;
+				margin: 0 auto;
+				.portfolio-list{
+		        	width: 100%;
+		        	display: flex;
+		       		flex-wrap: wrap;
+		      		justify-content: space-around;
+		        	.portfolio-list-itm{
+			            width: 47%;
+			            height: 380px;
+			            display: flex;
+			            margin-bottom: 20px;
+			            img{
+			                width: 100%;
+			                height: 100%;
+			                cursor: pointer;
+			            }
+		            }
+		        }
+			}
+        }
+        .steps{
+        	.step-container{
+        		width: 100%;
+        		height: 300px;
+        		h1{
+        			font-size: 20px;
+        		}
+        		.card-block{
+        			.card{
+        				display: none;
+        			}
+        			.cardd{
+        				display: block;
+        				h1{
+        					font-size:20px;
+        				}
+        				p{
+        					font-size: 18px;
+        				}
+        			}
+        		}
+        		.button{
+        			left: 10px;
+        			bottom: 10px;
+        		}
+        	}
+        }
+	}
+}
